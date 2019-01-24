@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Favourite"
+            android:icon="@drawable/favorite_icon"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/Notification"
+            android:icon="@drawable/notification_icon"
+            android:title="Notification" />
+        <item
+            android:id="@+id/ShareApp"
+            android:icon="@drawable/ic_menu_share"
+            android:title="ShareApp" />
+        <item
+            android:id="@+id/Contacts"
+            android:icon="@drawable/contact"
+            android:title="Contacts" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/PrivacyPolicy"
+                android:icon="@drawable/privacy_icon"
+                android:title="PrivacyPolicy" />
+
+        </menu>
+    </item>
+
+</menu>

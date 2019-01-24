@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.NotificationActivity">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:inputType="text"
+        android:text="Daily Notification Not Set"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#032531"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:inputType="text"
+        android:text="Click ON"
+        android:textColor="#032531"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:inputType="text"
+        android:text="Start Notification"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#032531"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id = "@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text=" START NOTIFICATION"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:background="#032531"/>
+    <Button
+        android:id = "@+id/button2"
+        android:layout_width="match_parent"
+        android:background="#314a51"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text=" CHANGE NOTIFICATION TIME"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id = "@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text=" STOP NOTIFICATION"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:background="#314a51"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id = "@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#032531"
+        android:inputType="text"
+        android:text="BACK"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
